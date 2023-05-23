@@ -5,4 +5,4 @@ services:
     ports:
       - "8080-8085:8080"
     volumes:
-      - "/mnt/projects/wars:/usr/local/tomcat/webapps"
+      - "/mnt/wars:/usr/local/tomcat/webapps/"

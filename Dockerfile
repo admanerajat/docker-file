@@ -1,4 +1,4 @@
 FROM tomcat:9
 MAINTAINER rajat
 EXPOSE 8080-8085:8080
-COPY /mnt/projects/wars/gameoflife.war /usr/local/tomcat/webapps/
+COPY gameoflife.war /usr/local/tomcat/webapps/
